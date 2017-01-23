@@ -1,5 +1,5 @@
 //enter the necessary includes - hint 3 different includes needed - google for which includes need to be added for the C functions used
-#include <studio.h>
+#include <stdio.h>
 #include <math.h>
 #include <float.h>
 

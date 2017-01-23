@@ -4,7 +4,7 @@ LD = gcc
 ifdef DEBUG
 CFLAGS = -ggdb -Wall
 else
-CFLAGS = -std = c99 -O3
+CFLAGS = -std=c99 -O3
 endif
 LIBS = -lm
 
