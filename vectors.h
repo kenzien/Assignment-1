@@ -17,8 +17,8 @@ vector vector_add(vector v1, vector v2);
 //vector_dot function, 
 float vector_dot(vector v1, vector v2);
 
-//vector_normalize function and 
-int vector_normalize(vector *v1);
+//vector_normalize function 
+int vector_normalize(vector *v1, vector *v2);
 
 //vector_print function
 void vector_print(vector v1);

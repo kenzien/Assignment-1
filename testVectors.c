@@ -35,7 +35,9 @@ int main(int argc, char *argv[]){
 	//if the length is 0 then print out an additional warning message saying that the vector was not normalized
 	//<--- code goes here
 	printf("The normalized vectors are:\n");
-	vector_print(vector_normalize(&v1));
+	vector_normalize(&v1, &v2);
+	vector_print(v1);
+	vector_print(v2);
 				
  return 0;
 }
